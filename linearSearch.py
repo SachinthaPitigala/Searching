@@ -1,10 +1,10 @@
-def linearSearch(list, target):
+def linearSearch(anyList, anyTarget):
     '''
     This function performs a linear search on the given list to find the target value.
     It returns the index of the target if found, otherwise it returns None.
     '''
-    for index in range(len(list)):
-        if list[index] == target:
+    for index in range(len(anyList)):
+        if anyList[index] == anyTarget:
             return index
     return None
 
