@@ -1,10 +1,13 @@
 def linearSearch(list, target):
     '''
-    Perform a linear search on the given list to find the target value.
+    This function performs a linear search on the given list to find the target value.
+    It returns the index of the target if found, otherwise it returns None.
+    '''
+    for index in range(len(list)):
+        if list[index] == target:
+            return index
+    return None
 
-    Parameters:
-    list (list): The list of elements to search through.
-    target: The value to search for in the list.'''
 
 def main():
     myList = [1, 2, 3, 4, 5]
