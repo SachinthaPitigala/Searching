@@ -34,4 +34,5 @@ def main():
 	else:
 		print(f"{target} is not in the list.")
 
-main()
+if __name__ == "__main__":
+    main()  
